@@ -150,8 +150,8 @@ const OddsTable: React.FC<OddsTableProps> = ({ initialOdds }) => {
 							<tr>
 								{headerGroup.headers.map((header) => (
 									<React.Fragment key={`${header.id}-sub`}>
-										<th className="text-center border border-gray-300 font-semibold">P</th>
-										<th className="text-center border border-gray-300 font-semibold">W</th>
+										<th className="text-center border border-gray-300 font-semibold">Fixed P</th>
+										<th className="text-center border border-gray-300 font-semibold">Fixed W</th>
 									</React.Fragment>
 								))}
 							</tr>
