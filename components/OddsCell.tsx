@@ -21,8 +21,8 @@ const OddsCell: React.FC<OddsCellProps> = ({ fixedP, fixedW, prevFixedP, prevFix
 	
 	return (
 		<div className="text-sm leading-tight">
-			<div className={colorP}>P: {fixedP ?? "-"}</div>
-			<div className={colorW}>W: {fixedW ?? "-"}</div>
+			<div className={colorP}>Fixed P: {fixedP ?? "-"}</div>
+			<div className={colorW}>Fixed W: {fixedW ?? "-"}</div>
 		</div>
 	);
 };
